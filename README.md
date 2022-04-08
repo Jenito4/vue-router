@@ -1,4 +1,4 @@
-# jobs-router2
+# jobs-router
 
 ## Project setup
 ```
