@@ -1,14 +1,14 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-    <!-- <router-link :to="{name: 'about'}">About</router-link> -->
-    <router-link :to="{name: 'jobs'}">Jobs</router-link>
+    <router-link to="/about">O nás</router-link>
+    <!-- <router-link :to="{name: 'about'}">O nás</router-link> -->
+    <router-link :to="{name: 'jobs'}">Práce</router-link>
   </div>
 
-  <button @click="redirect">Redirect</button>
-  <button @click="back">Go back</button>
-  <button @click="forward">Go forward</button>
+  <button @click="redirect">Přesměrování</button>
+  <button @click="back">Zpět</button>
+  <button @click="forward">Dopředu</button>
 
   <router-view/>
 </template>
